@@ -18,9 +18,9 @@ number=[number for number in a if number<5]
 print(number)
 # 3
 
-# num = int(input("Give me a number: "))
-# newList3 = []
-# for i in a:
-#     if(i < num):
-#         newList3.append(i)
-# print(newList3)
+num = int(input("Give me a number: "))
+newList3 = []
+for i in a:
+    if(i < num):
+        newList3.append(i)
+print(newList3)
